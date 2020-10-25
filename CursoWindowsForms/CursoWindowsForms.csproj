@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CursoWindowsForms.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,10 +55,19 @@
     <Compile Include="Frm_HelloWorld.Designer.cs">
       <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_ShowKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ShowKey.Designer.cs">
+      <DependentUpon>Frm_ShowKey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_HelloWorld.resx">
       <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ShowKey.resx">
+      <DependentUpon>Frm_ShowKey.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
