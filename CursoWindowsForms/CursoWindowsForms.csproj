@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm_AuthentPass .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AuthentPass .Designer.cs">
+      <DependentUpon>Frm_AuthentPass .cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_HelloWorld.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_AuthentPass .resx">
+      <DependentUpon>Frm_AuthentPass .cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_HelloWorld.resx">
       <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
     </EmbeddedResource>
