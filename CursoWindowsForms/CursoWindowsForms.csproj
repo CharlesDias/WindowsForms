@@ -61,6 +61,12 @@
     <Compile Include="Frm_HelloWorld.Designer.cs">
       <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Mask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Mask.Designer.cs">
+      <DependentUpon>Frm_Mask.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_ShowKey.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_HelloWorld.resx">
       <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Mask.resx">
+      <DependentUpon>Frm_Mask.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ShowKey.resx">
       <DependentUpon>Frm_ShowKey.cs</DependentUpon>
